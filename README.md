@@ -7,15 +7,15 @@ npm install
 npm start
 ## Backend
 ### How to run project
-INSTALL DEPENDENCIES
+#### INSTALL DEPENDENCIES
 npm install
-INSTALL DEVDEPENDENCIES
+#### INSTALL DEVDEPENDENCIES
 npm i -D
-RESTORE DATABASE
+#### RESTORE DATABASE
 - Open Command Prompt in folder bin of POSTGRES
 - Copy the dump.sql file in config folder and paste it in
 - Run psql -U [username] [database_name] < dump.sql
-START SERVER
+#### START SERVER
 npm test
 ## ALGORITHM
 - 3 functions in 3 js files
